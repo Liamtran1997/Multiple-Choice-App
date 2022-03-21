@@ -30,6 +30,20 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'devise'
+gem 'gravatar_image_tag', github: 'mdeering/gravatar_image_tag'
+gem 'cancancan'
+gem 'impressionist', '~>1.6.1'
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick', '~> 4.8'
+gem 'acts_as_votable'
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
+gem 'dotenv-rails'
+gem 'will_paginate-bootstrap4'
+gem 'font-awesome-sass'
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
