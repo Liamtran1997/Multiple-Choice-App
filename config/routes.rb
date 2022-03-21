@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   resources :answers
   resources :questions
   resources :quizzs
-  devise_for :users
+  devise_for :users, controllers: {
+    registrations: "registrations"
+  }
   resources :categories
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   #
